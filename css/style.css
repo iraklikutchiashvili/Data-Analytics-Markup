@@ -1,0 +1,230 @@
+/* header styles */
+.header-bigbox {
+    /* background-color: #E6F7FF; */
+    margin: 0 auto;
+    position: relative;
+}
+.header-bigbox::after {
+    content: ' ';
+    background-color: #E6F7FF;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    border-bottom-right-radius: 2000px;
+}
+.header-box {
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 24px;
+    /* background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    justify-content: space-between;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.nav-box {
+    display: flex;
+    justify-content: space-between;
+}
+.getstarted {
+    width: 138px;
+    height: 32px;
+    border-radius: 24px;
+    border: solid;
+    border-color: #722ED1;
+    background-color: #722ED1;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.getstarted:hover {
+    background-color: #1563FF;
+    transition: 0.5s;
+}
+.navp {
+    color: #ffff;
+    font-size: 14px;
+}
+.nav-ul li {
+    margin-left: 40px;
+}
+.nav-li a:hover {
+    color: #000000;
+    transition: 0.5s;
+}
+.nav-li a:hover {
+    color: #722ED1;
+    transition: 0.5s;
+}
+.about::after {
+    content: url('../images/smalldown.svg');
+    margin-left: 8px;
+}
+.update-box {
+    width: 256px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #F9F0FF;
+    padding-left: 16px;
+}
+.updatep {
+    margin-left: 7px;
+    color: #722ED1;
+    padding-bottom: 3px;
+    position: relative;
+}
+.learnmore::after {
+    content: ' ';
+    width: 45%;
+    height: 1px;
+    background-color: #722ED1;
+    bottom: 4px;
+    right: 0;
+    position: absolute;
+}
+.header-smallbox {
+    padding-top: 168px;
+}
+.header-image {
+    padding-top: 100px;
+}
+.header-h2 {
+    font-size: 48px;
+    color: #160637;
+    width: 370px;
+    margin-top: 2px;
+}
+.headerp {
+    font-size: 16px;
+    color: #8989A2;
+    max-width: 456px;
+    width: 100%;
+    margin-top: 14px;
+}
+.buttons-box {
+    max-width: 355px;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.button1 {
+    width: 168px;
+    height: 48px;
+    background-color: #722ED1;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.button1:hover {
+    background-color: #1563FF;
+    transition: 0.5s;
+}
+.p1 {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.button2 {
+    width: 168px;
+    height: 48px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    transition: 0.5s;
+}
+.button2:hover {
+    background-color: #F9F0FF;
+    transition: 0.5s;
+}
+.p2 {
+    color: #000000;
+    font-size: 14px;
+}
+
+/* footer styles */
+.box1 {
+    width: 184px;
+    height: 207px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footerp {
+    color: #160637;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.fa-facebook-square {
+    font-size: 20px;
+    color: #485A96;
+}
+.fa-twitter-square {
+    font-size: 20px;
+    color: #2DAAE1;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.fa-instagram-square {
+    font-size: 20px;
+    color: #EE6D41;
+}
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    max-width: 1440px;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+.footer-bigbox {
+    width: 100%;
+    height: auto;
+    background-color: #FBFCFF;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+}
+.box li {
+    margin-top: 15px;
+}
+.newsletter {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.word {
+    font-size: 16px;
+    color: #160637;
+}
+.fa-paper-plane {
+    color: #722ED1;
+}
+.mail-box {
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 180px;
+}
