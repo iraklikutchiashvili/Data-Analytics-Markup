@@ -8,5 +8,5 @@ document.getElementById('clickButton').addEventListener('click', function() {
     alert('Congratulations')
 })
 document.getElementById('learnmoreButton').addEventListener('click', function() {
-    alert('Learned')
+    alert('worst website')
 })
