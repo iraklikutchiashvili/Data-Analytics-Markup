@@ -48,6 +48,11 @@
     display: flex;
     justify-content: space-between;
 }
+.burger {
+    display: none;
+    font-size: 30px;
+    color: #722ED1;
+}
 .getstarted {
     width: 138px;
     height: 32px;
@@ -116,6 +121,15 @@
 }
 .header-image {
     padding-top: 100px;
+}
+.header-imagebg {
+    display: none;
+    content: ' ';
+    background-image: url(../images/image1.svg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .header-h2 {
     font-size: 48px;
@@ -468,6 +482,7 @@
     width: 100%;
     height: 414px;
     background-image: url(../images/bg.svg);
+    background-size: cover;
 }
 .section3-bigbox {
     max-width: 1116px;
@@ -531,8 +546,6 @@
     height: 768px;
     background-color: #F9F0FF;
     margin: 47px auto;
-    border-top-left-radius: 2000px;
-    border-bottom-right-radius: 2000px;
     padding-top: 200px;
 }
 /* section5 styles */
