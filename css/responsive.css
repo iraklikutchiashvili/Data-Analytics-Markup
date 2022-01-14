@@ -53,15 +53,13 @@
     .section2-box {
         margin: 0 auto;
     }
-    .nav-box {
-        display: none;
-    }
     .burger {
         display: block;
     }
     .header-box {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
     }
     .header-image {
         display: block;
@@ -71,6 +69,25 @@
     }
     .header-smallbox {
         margin: 0 auto;
+    }
+    .nav-box {
+        display: none;
+    }
+    .nav-box.active {
+        display: block;
+    }
+    .nav-box {
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    .nav-ul {
+        flex-direction: column;
+    }
+    .nav-li {
+        margin-top: 15px;
+    }
+    .getstarted {
+        margin-top: 15px;
     }
 }
 @media (max-width: 596px) {

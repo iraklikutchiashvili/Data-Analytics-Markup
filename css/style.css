@@ -47,11 +47,20 @@
 .nav-box {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .burger {
     display: none;
     font-size: 30px;
     color: #722ED1;
+    top: 30px;
+    right: 30px;
+    position: absolute;
+}
+.mainlogo {
+    top: 30px;
+    left: 240px;
+    position: absolute;
 }
 .getstarted {
     width: 138px;
