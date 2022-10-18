@@ -20,7 +20,7 @@ There are some animations as well. After looking it's done this project gave me 
 ### Links
 
 * Solution URL - [Solution](https://github.com/iraklikutchiashvili/project)
-* Live Site URL - [GitHub Live URL](iraklikutchiashvili.github.io/project/)
+* Live Site URL - [GitHub Live URL](https://iraklikutchiashvili.github.io/project/)
 
 ## Author
 
